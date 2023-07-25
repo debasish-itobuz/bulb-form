@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb Test</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="reg-section">
+        <div class="wrapper">
+            <div class="registration_form">
+                <div class="title">
+                    Registration Form
+                </div>
+                <form>
+                    <div class="form_wrap">
+                        <div class="input_wrap">
+                            <label for="name">Name</label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="input_wrap">
+                            <label for="date">Date of Birth</label>
+                            <input type="date" id="date" class="dob">
+                        </div>
+                        <div class="input_wrap">
+                            <label for="email">Email Address</label>
+                            <input type="text" id="email">
+                        </div>
+
+                        <div class="input_wrap">
+                            <label for="city">City</label>
+                            <input type="text" id="city">
+                        </div>
+                        <div class="input_wrap">
+                            <label for="country">Country</label>
+                            <input type="text" id="country">
+                        </div>
+                        <div class="input_wrap">
+                            <input type="submit" value="Register Now" class="submit_btn">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="bulb-section-container hidden ">
+        
+        <div class="bulb-section ">
+        <h2 class="header">Welcome </h2>
+        <img src="./images/off.jpeg" alt="bulb" class="bulb-off bulb-img">
+        <img src="./images/on.jpeg" alt="bulb" class="bulb-on bulb-img hidden">
+        <button class="bulb bolb-on bulb-off" type="button" id="btn">ON</button>
+    </div>
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
